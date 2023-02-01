@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Card, CardImg, CardBody, CardTitle } from "reactstrap";
 
-const API_KEY = "e79fe65e";
+const API_KEY = "KEY";
 const API_URL = `http://www.omdbapi.com/?apikey=${API_KEY}`;
 
 function MovieSearchEngine() {
